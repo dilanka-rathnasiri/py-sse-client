@@ -10,3 +10,7 @@
 # testing codes
 src/test
 src/test.py
+
+# build
+dist
+src/py_sse_client.egg-info

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-sse-client"
+version = "0.0.1"
+description = "A simple server sent events client for python"
+dependencies = ["requests"]
+requires-python = ">=3.10"
+authors = [{ name = "Dilanka Rathnasiri" }]
+maintainers = [{ name = "Dilanka Rathnasiri" }]
+readme = "README.md"
+license-files = ["LICENSE"]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+    "Topic :: Server Sent Events",
+    "Topic :: HTTP Streaming",
+]
+keywords = ["SSE"]
+
+[project.urls]
+Homepage = "https://github.com/dilanka-rathnasiri/py-sse-client"
+Documentation = "https://github.com/dilanka-rathnasiri/py-sse-client"
+Source = "https://github.com/dilanka-rathnasiri/py-sse-client"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["pysse*"]

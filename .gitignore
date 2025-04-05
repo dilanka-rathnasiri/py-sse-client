@@ -1,0 +1,12 @@
+# ides
+**/.idea
+**/.vscode
+.qodo
+
+# python
+**/venv
+**/__pycache__
+
+# testing codes
+src/test
+src/test.py

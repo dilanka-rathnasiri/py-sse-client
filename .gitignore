@@ -8,8 +8,7 @@
 **/__pycache__
 
 # testing codes
-src/test
-src/test.py
+src/pysse/test.py
 
 # build
 dist

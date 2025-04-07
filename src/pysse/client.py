@@ -1,9 +1,9 @@
-from event import Event
+from .event import Event
 from typing import Callable
 import json
 import aiohttp
 import asyncio
-from exceptions import HttpRespException
+from .exceptions import HttpRespException
 
 
 class Client:

@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "py-sse-client"
-version = "0.0.1"
+version = "0.0.3"
 description = "A simple server sent events client for python"
-dependencies = ["requests"]
+dependencies = ["aiohttp[speedups]"]
 requires-python = ">=3.10"
 authors = [{ name = "Dilanka Rathnasiri" }]
 maintainers = [{ name = "Dilanka Rathnasiri" }]
@@ -18,8 +18,9 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Operating System :: OS Independent",
-    "Topic :: Server Sent Events",
-    "Topic :: HTTP Streaming",
+    "Framework :: AsyncIO",
+    "Framework :: aiohttp",
+    "Intended Audience :: Developers",
 ]
 keywords = ["SSE"]
 

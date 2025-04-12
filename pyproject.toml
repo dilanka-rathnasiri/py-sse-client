@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "py-sse-client"
-version = "0.0.3"
+version = "1.0.0"
 description = "A simple server sent events client for python"
 dependencies = ["aiohttp[speedups]"]
 requires-python = ">=3.10"
